@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 18px;
+  font-family: Space Grotesk;
+}
+.back-card {
+  width: 330px;
+  height: 180px;
+  background-color: lightgrey;
+  border-radius: 4px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.black-strip {
+  width: 330px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  margin-top: 20px;
+}
+.cvc-container {
+  width: 258px;
+  height: 30px;
+  background-color: darkgray;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 35px;
+  border-radius: 4px;
+}
+.front-card {
+  width: 330px;
+  height: 180px;
+  background-color: #ff0080;
+  border-radius: 4px;
+  position: absolute;
+  top: 18.5%;
+  left: 6%;
+}
+.logo {
+  width: 58px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+h3 {
+  color: white;
+}
+#cvc-num {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-weight: lighter;
+  font-size: 11px;
+  margin-top: 8px;
+  margin-right: 6px;
+}
+#card-num {
+  font-size: 17px;
+  font-weight: bold;
+  position: absolute;
+  top: 63%;
+  left: 7%;
+}
+#card-name {
+  font-size: 10px;
+  font-weight: lighter;
+  position: absolute;
+  top: 85%;
+  left: 7%;
+}
+#exp-month {
+  font-size: 10px;
+  font-weight: lighter;
+  position: absolute;
+  top: 85%;
+  left: 83%;
+}
+#exp-year {
+  font-size: 10px;
+  font-weight: lighter;
+  position: absolute;
+  top: 85%;
+  left: 90%;
+}
+.form-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+label {
+  text-transform: uppercase;
+  color:hsl(278, 68%, 11%) ;
+  margin-bottom: .3rem;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.input-text[type="text"] {
+  width: 300px;
+  height: 25px;
+  font-family: Space Grotesk;
+  padding: .9rem;
+  border: 1px solid hsl(278, 68%, 11%);
+  border-radius: 6px;
+  font-size: 18px;
+ 
+}
+input::placeholder{
+  font-family: Space Grotesk;
+  color:  hsl(279, 6%, 55%);
+}
+input:focus{
+  outline-color: hsl(249,99%,64%);
+}
+.card-info {
+  display: flex;
+  grid-column: 2 span;
+  gap: 1rem;
+}
+.card-date {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 span;
+  margin-top: 30px;
+}
+.card-date .two-inp {
+  display: flex;
+}
+.card-date input[type="text"] {
+  width: 74px;
+  margin-inline: 0.5rem;
+  margin-left: 0;
+  border-radius: 3px;
+  height: 25px;
+  border: 1px solid hsl(278, 68%, 11%);
+  font-family: Space Grotesk;
+  padding: .9rem;
+  font-size: 18px;
+}
+span.cvc-label {
+  margin-left: 32.5px;
+}
+#cvc-input{
+  width: 120px;
+  margin-left: 14.4;
+}
+
+.confirm-btn {
+  width: 308px;
+  height: 29px;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  font-family: Space Grotesk;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+  margin-top: 30px;
+}
+.cardholder-error p{
+  color: red;
+  font-size: 10px;
+}
+.cardnumber-error p{
+  color: red;
+  font-size: 10px;
+}
+.expmonth-error p{
+  color:red;
+  margin-top: 30px;
+  position: absolute;
+  left: 8.5%;
+  font-size: 10px;
+  margin-left: 33px;
+}
+#errors{
+  font-size: 10px;
+  color: red;
+}
+.thankyou-section{
+  margin-top: 40px;
+}
+.thankyou-section img{
+ margin-left: 180px;
+}
+.thankyou-section h3{
+  color: hsl(278, 68%, 11%);
+  display: flex;
+  justify-content: center;
+}
+.thankyou-section p {
+  color:hsl(279, 6%, 55%) ;
+  display: flex;
+  justify-content: center;
+}
+.thank-you{
+  width: 308px;
+  height: 29px;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  font-family: Space Grotesk;
+  border-radius: 3px;
+  cursor: pointer;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.hidden{
+  display: none;
+}
+.formdetails .hidden{
+  display: none;
+}
